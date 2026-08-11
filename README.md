@@ -1,16 +1,31 @@
-# React + Vite
+# Full-Stack React + Express + MongoDB Form Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete full-stack web application that captures user data via a React frontend form and securely stores it in a MongoDB database through a custom Express.js backend REST API. The project is built using modern tooling with Vite for an optimized development experience.
 
-Currently, two official plugins are available:
+##  Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Frontend**: Built with React and Vite.
+- **Robust Validation**: Form validation implemented on the frontend to ensure clean data submission.
+- **RESTful API**: Express.js backend server handling structured `POST` requests.
+- **Object Modeling**: Mongoose schemas enforcing structured data storage.
+- **Database Integration**: Local MongoDB instance connection for persistence.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend**: React, Vite, CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB, Mongoose
+- **HTTP Client**: Axios 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📋 Prerequisites
+
+Before running this project, ensure you have the following installed:
+- [Node.js](https://nodejs.org) (v16 or higher recommended)
+- [MongoDB](https://mongodb.com) (Local installation or MongoDB Atlas URI)
+
+## ScreenShots
+<img width="1344" height="633" alt="reactform" src="https://github.com/user-attachments/assets/7ffd6df2-fd90-4b0f-8a0d-5bfdb93ff479" />
+
+
+
