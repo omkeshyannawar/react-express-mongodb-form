@@ -1,7 +1,12 @@
 import './App.css'
+import { useState } from 'react';
 import { useForm } from 'react-hook-form';
+import axios from 'axios';
 
 function App() {
+  
+  const [message,setMessage]=useState("");
+
   const {
     register,
     handleSubmit,
@@ -10,7 +15,14 @@ function App() {
   } = useForm();
    
    function onSubmit(data){
-      console.log("submitting your data: ", data);
+     axios.post("http://localhost:3000/employee", data).
+     then((response)=>{
+         console.log(response.data);
+         setMessage("Employee saved successfully!");
+     }).catch((error)=>{
+        console.log("Error:", error.message);
+        setMessage("Something went wrong!");
+     });
    }
 
 
@@ -18,6 +30,7 @@ function App() {
     <>
       <div className='form-container'>
       <div>
+        {message && <p>{message}</p>}
         <form onSubmit={handleSubmit(onSubmit)}>
 
           <div>
