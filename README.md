@@ -29,3 +29,5 @@ Before running this project, ensure you have the following installed:
 
 
 
+<img width="1347" height="638" alt="form2" src="https://github.com/user-attachments/assets/63fde03f-1ca2-4f2c-b693-d1bc30bb9349" />
+<img width="1117" height="538" alt="form3" src="https://github.com/user-attachments/assets/65435933-c170-4337-831c-9ef1898f767b" />
